@@ -1,15 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-// Lỗi 1: Thiếu dấu chấm phẩy
-printf("Hello, world")
-
-// Lỗi 2: Khai báo biến mà không sử dụng
-int x;
 
 int main() {
+    // Lỗi 1: Thiếu dấu chấm phẩy
+    printf("Hello, world")
+
+    // Lỗi 2: Khai báo biến mà không sử dụng
+    int x;
+
     // Lỗi 3: Gọi hàm printf với đối số sai
-    printf("Sum is %d\n", x);
+    printf("Sum is %d\n", x)
 
     // Lỗi 4: Gọi hàm không tồn tại
     undefinedFunction();
@@ -71,10 +70,6 @@ int main() {
 
     // Lỗi 20: Đặt tên biến trùng với từ khóa ngôn ngữ
     int int = 5;
-
-    // Dòng 21 đến 200: Code đúng
-    // ...
-    // ...
 
     return 0;
 }
